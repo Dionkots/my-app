@@ -1,0 +1,26 @@
+h2{
+    font-family: 'Times New Roman', sans-serif;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    color: rgb(190, 185, 149);
+}
+
+p{
+    font-family: 'Times New Roman', sans-serif;
+    font-size: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45em;
+    margin-bottom: 5rem;
+    color: gray;
+}
+
+hr{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(54, 54, 54, 0), rgba(0, 0, 0, 0.75), rgba(54, 54, 54, 0));
+    margin-top: 1.5rem;
+}
+

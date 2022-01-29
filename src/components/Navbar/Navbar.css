@@ -1,0 +1,61 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+.Navbar{
+background-color: rgb(146, 161, 149);
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    height: 7.5em;
+}
+
+.logo-img{
+	width: 90px;
+  height: 90px;
+  float:left;
+  padding: 28px 5px 20px 20px;
+}
+
+h1 span{
+    display: block;
+    font-size: 1.5em;
+    font-weight: 500;
+    padding:25px 5px 10px 0px;
+    font-family: 'Oooh Baby', cursive;
+
+}
+ 
+.Menubar {
+    list-style-type: none;
+    overflow: hidden;
+    display: flex;
+    padding-right: 8rem;
+}
+
+.Menubar a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-align: center;
+    padding: 0.8rem;
+    font-family: 'Times New Roman', sans-serif;
+    font-size: 1.2em;
+}
+
+.Menubar li{
+    display: flex;
+}
+
+.Denia-stella-Header{
+
+    color: rgb(255, 255, 255);
+    padding-left: 8rem;
+    text-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+a:hover {
+    color: rgb(161, 172, 163);
+    background-color: rgb(219, 215, 186);
+    border-radius: 10px;
+}
+
