@@ -17,7 +17,7 @@ class Book extends Component {
     
 
             <h5>Κανε κρατηση</h5>
-<form  action="contact-us" method="POST">
+<form  action="http://localhost:3001/contact-us" method="POST">
   <div class="elem-group">
     <label for="name">Your Name</label>
     <input type="text" id="name" name="visitor_name" placeholder="John Doe"  required></input>
