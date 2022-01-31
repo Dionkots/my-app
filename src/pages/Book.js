@@ -60,6 +60,10 @@ class Book extends Component {
         <option value="connecting">Denia Apartment</option>
         <option value="adjoining">Stella Apartment</option>
         <option value="adjacent">Ioanna Masonette</option>
+        <option value="adjacent">Apartment Ninemia I</option>
+        <option value="adjacent">Apartment Ninemia II</option>
+        <option value="adjacent">Studio 1</option>
+        <option value="adjacent">Studio 2</option>
     </select>
   </div>
   <hr></hr>

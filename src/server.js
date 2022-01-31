@@ -15,7 +15,7 @@ var mysql = require('mysql2');
 var conn = mysql.createConnection({
   host: 'localhost', // Replace with your host name
   user: 'root',      // Replace with your database username
-  password: 'test123',      // Replace with your database password
+  password: '12345',      // Replace with your database password
   database: 'mydb' // // Replace with your database Name
 }); 
  
@@ -108,7 +108,7 @@ app.use(function(err, req, res, next) {
  
 // port must be set to 3000 because incoming http requests are routed from port 80 to port 8080
 app.listen(3001, function () {
-    console.log('Node app is running on port 3000');
+    console.log('Node app is running on port 3001');
 });
  
 module.exports = app;

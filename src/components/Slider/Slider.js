@@ -22,43 +22,13 @@ function Slider() {
 
 
 
-    /*const nextSlide = () => {
-        if(slideIndex !== dataSlider.length){
-            setSlideIndex(slideIndex + 1)
-        } 
-        else if (slideIndex === dataSlider.length){
-            setSlideIndex(1)
-        }
-    }
-
-    const previousSlide = () => {
-        if(slideIndex !== 1){
-            setSlideIndex(slideIndex - 1)
-        }
-        else if (slideIndex === 1){
-            setSlideIndex(dataSlider.length)
-        }
-    }
-
-    */
+   
 
     const moveDot = index => {
         setSlideIndex(index)
     }
     
-    /*
-    const switchImage = () =>{
-        if (slideIndex < dataSlider.length - 1) {
-                setSlideIndex(slideIndex + 1);
-          } else if (slideIndex === dataSlider.length){
-            setSlideIndex(1);
-          }
-        }
-
-    const componentDidMount = () => {
-            setInterval(switchImage, 2000);
-        }
-    */
+    
 
 
     return(
@@ -71,7 +41,7 @@ function Slider() {
                 )
             })}
             <div className="container-dots">
-            {Array.from({length: 3}).map((item, index) => (
+            {Array.from({length: 4}).map((item, index) => (
                 <div 
                 onClick={() => moveDot(index + 1)}
                 className={slideIndex === index + 1 ? "dot active" : "dot"}

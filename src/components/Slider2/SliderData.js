@@ -9,6 +9,10 @@ const dataSlider = [
   ,
   process.env.PUBLIC_URL + `/Images/Image6.jpg`
   ,
+  process.env.PUBLIC_URL + `/Images/16.jpg`
+  ,
+  process.env.PUBLIC_URL + `/Images/17.jpg`
+  ,
 ];
 
 export default dataSlider;

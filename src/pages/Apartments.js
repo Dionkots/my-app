@@ -22,16 +22,16 @@ class Apartments extends Component {
     <a class="card-title">Denia Apartment</a>
       <hr></hr>
       <img src={process.env.PUBLIC_URL + 'Images/received_293769199161648.jpeg'} class="card-img-top" alt="..."></img>
-      <p class="card-text">Bedrooms: 2
+      <p class="card-text">Bedrooms: 2<br></br>
 
-Bathrooms: 1
-Double beds: 2
+Bathrooms: 1<br></br>
+Double beds: 2<br></br>
 
-Sofa bed: 1
+Sofa bed: 1<br></br>
 
 Size: 55 m²</p>
       <hr></hr>
-      <a href="#openPopup" class="btn-primary">View more...</a>
+     
     
       <hr></hr>
     </div>
@@ -44,18 +44,18 @@ Size: 55 m²</p>
       <a1 class="card-title">Stella Apartment</a1>
       <hr></hr>
       <img src={process.env.PUBLIC_URL + 'Images/IMG_20210925_144451_new.jpg'} class="card-img-top" alt="..."></img>
-      <p class="card-text">Bedrooms: 2
+      <p class="card-text">Bedrooms: 2<br></br>
 
-Bathrooms: 1
-Double beds: 1
+Bathrooms: 1<br></br>
+Double beds: 1<br></br>
 
-Single beds: 2
+Single beds: 2<br></br>
 
-Sofa bed: 1
+Sofa bed: 1<br></br>
 
 Size: 60 m²</p>
       <hr></hr>
-      <a href="src/pages/Stella.js" class="btn-primary">View more...</a>
+      
     </div>
   </div>
 </div>

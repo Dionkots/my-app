@@ -17,6 +17,7 @@
     "morgan": "^1.10.0",
     "mysql": "^2.18.1",
     "mysql2": "^2.3.3",
+    "node.js": "^0.0.1-security",
     "nodemon": "^2.0.15",
     "react": "^17.0.2",
     "react-bootstrap": "^2.1.0",
